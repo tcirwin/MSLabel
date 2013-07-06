@@ -1,5 +1,5 @@
-Pod::spec.new do |pod|
-  pod.name         = "MSLabelEnhanced"
+Pod::Spec.new do |pod|
+  pod.name         = "MSLabel"
   pod.version      = "0.2"
   pod.summary      = "MSLabel is a custom UILabel that allows you to specify LineHeight and Anchor point."
   pod.homepage     = "https://github.com/tcirwin/MSLabel"
