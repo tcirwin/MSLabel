@@ -20,12 +20,12 @@ line height specifies the number of pixels between draw points of each line.
 anchorToBottom specifies whether the text grows from the top of the frame or the bottom.
 
 eg.
-MSLabel *titleLabel = [[[MSLabel alloc] initWithFrame:CGRectMake(0, 0, 100, 50)] autorelease];
-titleLabel.lineHeight = 13;
-titleLabel.anchorToBottom = YES;
-titleLabel.numberOfLines = 2;
-titleLabel.text = @"Some really really long text that goes to the second line";
-[self.view addSubview:titleLabel];
+    MSLabel *titleLabel = [[[MSLabel alloc] initWithFrame:CGRectMake(0, 0, 100, 50)] autorelease];
+    titleLabel.lineHeight = 13;
+    titleLabel.anchorToBottom = YES;
+    titleLabel.numberOfLines = 2;
+    titleLabel.text = @"Some really really long text that goes to the second line";
+    [self.view addSubview:titleLabel];
 
 Unsupported
 -----------
