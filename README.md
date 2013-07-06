@@ -3,6 +3,15 @@ There is another custom UILabel that supports line heights here: https://github.
 It works great, except it uses coreText so it won't work on iOS < v3.2
 MSLabel doesn't use coreText and simply overrides drawRect.
 
+How To Use
+----------
+1. Add to your Podfile, then run `pod install`.
+1. Insert a UILabel into your storyboard or xib file in Xcode.
+2. Select the new UILabel, then open the "Identity Inspector" tab on the right.
+3. Change the "Custom Class" to `MSLabel`.
+4. Connect the label to your view or cell as an outlet. Make sure the "Type" is
+"MSLabel".
+
 Usage
 -----
 It supports most UILabel properties including text alignment, font, colors...etc.
