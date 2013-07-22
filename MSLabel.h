@@ -14,12 +14,10 @@ typedef enum {
     MSLabelVerticalAlignmentBottom
 } MSLabelVerticalAlignment;
 
-@interface MSLabel : UILabel 
-{
-    int _lineHeight;
-}
+@interface MSLabel : UILabel
 
 @property (nonatomic, assign) int lineHeight;
 @property (nonatomic, assign) MSLabelVerticalAlignment verticalAlignment;
+@property (nonatomic, readonly) CGFloat _textHeight;
 
 @end
