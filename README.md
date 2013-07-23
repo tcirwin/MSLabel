@@ -1,7 +1,6 @@
-MSLabel is a custom UILabel that allows you to specify LineHeight and Anchor point. 
-There is another custom UILabel that supports line heights here: https://github.com/Tuszy/MTLabel
-It works great, except it uses coreText so it won't work on iOS < v3.2
-MSLabel doesn't use coreText and simply overrides drawRect.
+MSLabel is a custom UILabel that allows you to specify LineHeight and Anchor
+point, but it inherits from UILabel so you can use it in conjunction with the
+storyboard.
 
 How To Use
 ----------
