@@ -2,6 +2,9 @@ MSLabel is a custom UILabel that allows you to specify LineHeight and Anchor
 point, but it inherits from UILabel so you can use it in conjunction with the
 storyboard.
 
+ - Author: Joshua Wu
+ - CoreText Code: Michal Tuszynski and Martin Hwasser
+
 How To Use
 ----------
 1. Add to your Podfile, then run `pod install`.
